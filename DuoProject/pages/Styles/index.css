@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+body {
+    background-color: #f1f1f1;
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+.bannerArea {
+    background: linear-gradient(60deg, rgb(255, 255, 255, 1), rgba(255, 255, 255, 0)),
+        url(../../assets/img/header.png);
+    background-position: right center;
+    background-size: cover;
+    padding: 12rem 8rem 8rem 12rem;
+
+
+}
+
+.banner-header {
+    background-color: blueviolet;
+    background-position: left;
+    margin: auto;
+    height: 70px;
+    width: 110vh;
+    border-bottom: 3px solid blueviolet;
+    border-radius: 0px 0px 40px 0px;
+    margin-bottom: left;
+    font-family: 'Regular', sans-serif;
+    position: absolute;
+
+}
+
+.banner-header li {
+    display: inline;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.banner-header a {
+    font-size: 11px;
+    font-family: 'SemiBold', sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.franquia {
+    background-color: #f39f03;
+    width: auto;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    padding: 0 30px;
+    margin-top: 10px;
+    margin-left: 12px;
+
+
+}
+
+.consultoria {
+    background-color: #7926b9;
+    width: auto;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    padding: 0 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.compra {
+    background-color: #0DBBDD;
+    width: auto;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    padding: 0 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.areaRestrita {
+    background-color: #f39f03;
+    position: fixed;
+    width: 15%;
+    height: 40px;
+    border-radius: 0 0 8px 5px;
+    border-style: none;
+    text-align: center;
+    padding: 8px;
+    display: inline-block;
+    top: 0;
+    right: 9%;
+}
+
+.banner-Text1 {
+    color: #f39f03;
+    font-family: 'Black';
+    font-size: 40px;
+    font-weight: bold;
+    padding: auto;
+    margin-left: 40px;
+}
+
+.banner-Text2 {
+    font-family: 'Regular';
+    font-size: 16px;
+    width: 360px;
+    margin: 10px;
+    margin-left: 40px;
+    line-height: 25px;
+}
+
+.banner-Text2 {
+    font-weight: "Bold";
+
+
+}
+
+.icons {
+    padding-right: 5px;
+    align-items: left;
+    vertical-align: middle;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+.listColor {
+    background-color: #f1f1f1;
+    padding: 50px;
+    margin-block-start: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.pergunta {
+    color: blueviolet;
+    font-family: 'ExtraBold';
+    font-size: 16px;
+    padding: 15px 0 10px 40px;
+    line-height: 50px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.resposta {
+    font-family: 'Regular';
+    font-size: 14px;
+    line-height: 18px;
+    width: 70%;
+    padding: 0px 0 15px 40px;
+}
+
+.setaContainer::before {
+    content: '';
+    background-image: url(../../assets/img/seta.png);
+    position: absolute;
+    right: 45px;
+    width: 30px;
+    height: 16px;
+    transition: all 0.2s;
+}
+
+
+.setaContainer.ativo::before {
+    transform: scaleY(-1)
+}
+
+.setaContainer {
+    position: relative;
+
+}
+
+.Rodape {
+    background-color: blueviolet;
+    padding: 15px 100px;
+    width: auto;
+}
+
+/*lista*/
+@font-face {
+    font-family: 'ExtraBold';
+    src: url('../../assets/fonts/Montserrat-ExtraBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*fonte do banner*/
+@font-face {
+    font-family: 'Regular';
+    src: url('../../assets/fonts/Montserrat-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: url('../../assets/fonts/Montserrat-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Black';
+    src: url('../../assets/fonts/Montserrat-Black.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
